@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registering</title>
+    <style>
+        body {
+            background: url(background.jpg);
+        }
+
+        .container {
+            position: absolute;
+            top: 5%;
+            left: 25%;
+            height: 593px;
+            width: 650px;
+            justify-content: center;
+            background-color: palevioletred;
+            border: 4px solid brown;
+            border-radius: 7px;
+        }
+
+        h2 {
+            color: blueviolet;
+            font-weight: bold;
+            display: block;
+            padding: 23px 23px;
+            margin: 12px 12px;
+            position: relative;
+            left: 160px;
+            font-size: 2.5rem;
+        }
+
+        input {
+            display:block;
+            width: 233px;
+            margin: auto;
+        }
+
+        .btn {
+            background-color: blueviolet;
+            color: black;
+            display: block;
+            margin: auto;
+            font-size: 1.3rem;
+            padding: 8px 8px;
+            border-radius: 7px;
+            position: relative;
+            top: 45px;
+            left: 4.9px;
+        }
+
+        .btn:hover {
+            color: white;
+        }
+
+        input[type] {
+            background-color: white;
+            border: 3px solid green;
+            border-radius: 7px;
+            padding: 12px 12px;
+        }
+        .box div{
+            color:red;
+            font-weight: bold;
+            font-size: 1.4rem;
+            position:relative;
+            left:54px;
+            top:35px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>CONTACT US</h2>
+        <div class="box">
+            <div>NAME:</div>
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="box">
+            <div>EMAIL ID:</div>
+            <input type="email">
+        </div>
+        <div class="box">
+            <div>MOBILE NO:</div>
+            <input type="number">
+        </div>
+        <button class="btn">Submit Now</button>
+    </div>
+</body>
+
+</html>
